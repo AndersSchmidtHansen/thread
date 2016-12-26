@@ -1,6 +1,6 @@
-# stocktrader
+# Thread
 
-> A Vue.js project
+> a clean vue-cli template with vuex, vue-resource and vue-router
 
 ## Build Setup
 
