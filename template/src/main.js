@@ -19,5 +19,14 @@ new Vue({
   el: '#app',
   store,
   router,
-  render: h => h(App)
+  render: h => h(App),
+  mounted() {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+      .register('../sw.js')
+      .then(() => {
+        console.log('Service Worker Registered')
+      })
+    }
+  }
 })
