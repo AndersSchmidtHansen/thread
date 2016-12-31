@@ -1,0 +1,10 @@
+{
+    "name": "{{ name }} Commander",
+    "alwaysOnTop": true,
+    "theme": "dark",
+    "width": 500,
+    "hotkeys": {
+        "Control+Alt+b": "build",
+        "Control+Alt+d": "deploy"
+    }
+}
