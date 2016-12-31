@@ -3,7 +3,17 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "/",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "README.md",
+      ".babelrc",
+      ".gitignore",
+      "webpack.config.js",
+      "package.json",
+      "src",
+      "**/node_modules/"
+    ],
     "rewrites": [
       {
         "source": "**",
