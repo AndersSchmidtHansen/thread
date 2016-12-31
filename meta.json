@@ -14,6 +14,10 @@
     "author": {
       "type": "string",
       "label": "Author"
+    },
+    "bootstrap": {
+      "type": "confirm",
+      "label": "Add latest Bootstrap?"
     }
   },
   "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev"
