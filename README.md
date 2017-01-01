@@ -29,6 +29,6 @@ firebase use --add <YOUR-PROJECT-ID>
 # build and deploy to Firebase
 # (or use CONTROL+ALT+d) to make Screwy do it)
 npm run deploy
-
+```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
