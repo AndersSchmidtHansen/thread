@@ -1,8 +1,11 @@
 {
-    "name": "{{ name }} Commander",
+    "name": "{{ name }}",
     "alwaysOnTop": true,
     "theme": "dark",
-    "width": 500,
+    "width": 300,
+    "height": 150,
+    "primary": ["dev", "build", "deploy"],
+    "exclude": ["set-development"],
     "hotkeys": {
         "Control+Alt+b": "build",
         "Control+Alt+d": "deploy"
