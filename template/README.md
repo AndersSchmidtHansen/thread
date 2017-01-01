@@ -4,6 +4,8 @@
 
 > **Also includes:** easy [Firebase](https://console.firebase.google.com) deployment, [Screwy](https://github.com/samueleaton/screwy) (a GUI for your NPM commands and deploying to Firebase), a choice between Bootstrap 4 or BassCSS, and a basic [Progressive Web App](https://developers.google.com/web/progressive-web-apps/) setup with a basic, optional Service Worker.
 
+> **Grab it via:** `vue init AndersSchmidtHansen/thread <NAME>` or fork your own.
+
 ## Build Setup
 
 ``` bash
