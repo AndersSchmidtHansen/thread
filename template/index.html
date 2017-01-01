@@ -26,6 +26,7 @@
   <body>
     <div id="app"></div>
     <script src="./public/build.js"></script>
+    {{#if serviceWorker}}
     <script async>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker
@@ -35,5 +36,6 @@
         })
       }
     </script>
+    {{/if}}
   </body>
 </html>

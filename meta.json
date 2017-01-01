@@ -28,6 +28,10 @@
         "bootstrap",
         "none"
       ]
+    },
+    "serviceWorker": {
+      "type": "confirm",
+      "label": "Add a basic Service Worker?"
     }
   },
   "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev"
