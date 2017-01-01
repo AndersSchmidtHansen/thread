@@ -15,9 +15,19 @@
       "type": "string",
       "label": "Author"
     },
-    "bootstrap": {
+    "cssToolkit": {
       "type": "confirm",
-      "label": "Add latest Bootstrap?"
+      "label": "Add a CSS toolkit?"
+    },
+    "cssToolkitConfig": {
+      "when": "cssToolkit",
+      "type": "list",
+      "message": "Pick a CSS toolkit",
+      "choices": [
+        "basscss",
+        "bootstrap",
+        "none"
+      ]
     }
   },
   "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev"
