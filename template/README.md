@@ -1,4 +1,4 @@
-# Thread - Yet another Vue CLI template
+# Thread - Yet another [Vue CLI](https://github.com/vuejs/vue-cli) template
 
 > **Contains:** [vuex](https://github.com/vuejs/vuex), [vue-resource](https://github.com/pagekit/vue-resource) and [vue-router](https://github.com/vuejs/vue-router).
 
