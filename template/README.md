@@ -2,7 +2,7 @@
 
 > **Contains:** [vuex](https://github.com/vuejs/vuex), [vue-resource](https://github.com/pagekit/vue-resource) and [vue-router](https://github.com/vuejs/vue-router).
 
-> **Also includes:** easy [Firebase](https://console.firebase.google.com) deployment, [Screwy](https://github.com/samueleaton/screwy) (a GUI for your NPM commands and deploying to Firebase), a choice between Bootstrap 4 or BassCSS, and a basic [Progressive Web App](https://developers.google.com/web/progressive-web-apps/) setup with a simple Service Worker.
+> **Also includes:** easy [Firebase](https://console.firebase.google.com) deployment, [Screwy](https://github.com/samueleaton/screwy) (a GUI for your NPM commands and deploying to Firebase), a choice between Bootstrap 4 or BassCSS, and a basic [Progressive Web App](https://developers.google.com/web/progressive-web-apps/) setup with a basic, optional Service Worker.
 
 ## Build Setup
 
